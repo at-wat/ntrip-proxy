@@ -1,0 +1,7 @@
+version: '2'
+services:
+  ntrip-proxy:
+    image: ntrip-proxy
+    build: .
+    ports:
+      - "8082:80"
