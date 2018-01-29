@@ -4,4 +4,8 @@ services:
     image: ntrip-proxy
     build: .
     ports:
-      - "8082:80"
+      - "6000:6000"
+    environment:
+      - "NTRIP_USER"
+      - "NTRIP_PASS"
+      - "NTRIP_MOUNT_POINT"
