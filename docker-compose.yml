@@ -9,6 +9,7 @@ services:
       NTRIP_DOMAIN: $NTRIP_DOMAIN
       NTRIP_USER: $NTRIP_USER
       NTRIP_PASS: $NTRIP_PASS
+      NTRIP_HTTP_PROTOCOL: $NTRIP_HTTP_PROTOCOL
   rtklib-str2str:
     image: rtklib
     build: rtklib
